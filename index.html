@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Foundation for Sites</title>
+    <title>DNA Damage and Repair Database</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
   </head>
@@ -16,9 +16,11 @@
 
         <div class="off-canvas position-left" id="mobile-menu" data-off-canvas>
           <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Browse</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Download</a></li>
+            <li><a href="#">Help</a></li>
           </ul>
         </div>
 
@@ -29,8 +31,10 @@
           <div class="title-bar show-for-small-only">
             <div class="title-bar-left">
               <button class="menu-icon" type="button" data-open="mobile-menu"></button>
-              <span class="title-bar-title">MENU</span>
+              <!-- <span class="title-bar-title">MENU</span> -->
+              
             </div>
+            <div class="title-bar-center show-for-small-only"><img class="logo-image logo-center" src="img/xr_logo_white.png" width="75" height="92"></img></div>
           </div>
 
           <!-- DESKTOP NAVIGATION -->
@@ -38,12 +42,22 @@
           <nav class="top-bar nav-desktop">
             <div class="wrap">
               <div class="top-bar-left">
-                  <h3 class="site-logo">Site Title</h3>
+                  <!-- <li class="name"> 
+                      <a href="#"><img src="img/xr_log_white.png"/></a> 
+               </li> -->
+               <div class="logo">
+                  <img class="logo-image" src="img/xr_logo_white.png" width="75" height="92"></img>
+                  <h3 class="site-logo">Excision Repair Database</h3>
+                </div>
+               <!-- <img src="img/xr_log_white.png"></img> -->
               </div>
               <div class="top-bar-right">
                 <ul class="menu menu-desktop">
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Browse</a></li>
+                  <li><a href="#">Search</a></li>
+                  <li><a href="#">Download</a></li>
+                  <li><a href="#">Help</a></li>
                   <li><a href="#">Contact</a></li>
                 </ul>
               </div>
@@ -54,28 +68,98 @@
 
           <section class="hero">
             <div class="wrap">
-              <h1>Welcome to Foundation 6</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in.</p>
-              <a href="#" class="button">Learn More</a>
-              <a href="#" class="button success">Contact Us</a>
+              <h1>Welcome to Repair Database!</h1>
+              <p>This database serves the genomic maps of various DNA damage and repair of model organisms: Human, Mouse, Arabidopsis and E.coli</p>
+              <a href="#" class="button">Learn More on XR-seq</a>
+              <a href="#" class="button success">Learn More on Damage-seq</a>
+              <p> here comes the embedded window </p>
             </div>
           </section>
 
           <!-- MAIN SECTION -->
 
           <section class="main">
-            <div class="wrap row">
-              <div class="small-12 medium-7 column">
-                <h1>Main Section</h1>
-                <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              <div class="wrap row">
+                <div class="small-12 column">
+                  <h1>Welcome to the Database of Repairomes!</h1>
+                  <!-- <hr> -->
+                  <blockquote>Out of six billion base pairs, pick out a spot and we'll tell you how it is repaired.<cite>Aziz Sancar, 2015 Nobel Laureate in Chemistry</cite></blockquote>
+                  <p>This database serves the genomic maps of various DNA damage and repair of model organisms: Human, Mouse, Arabidopsis and E.coli. Damage and repair maps of the bulky adduct causing agents such as UV Cyclobutane pyrimidine dimers (CPDs), (6-4) Photoproduct, Cispatin, Oxiloplatin, Aflotoxin, Benzo[a]pyrene with a variety of treatments of different cell lines and strains are available. Start discovering now! </p>
+                  <a href="#" class="button">Learn More on XR-seq</a>
+                  <a href="#" class="button success">Learn More on Damage-seq</a>
+                  <!-- <blockquote>This study is the most satisfying one I have done in the last 10 years. (on XR-seq)<cite>Aziz Sancar, 2015 Nobel Laureate in Chemistry</cite></blockquote> -->
+                  
+                </div>
               </div>
-              <div class="small-12 medium-5 column">
-                <h1>Secondary Section</h1>
+            <div class="wrap row">
+              <div class="small-12 medium-6 column">
+                <h1>Start Genome Browsing</h1>
                 <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <div class="wrap row">
+                  <div class="small-6 medium-3 column image-hover-wrapper">  
+                       <a href="#">
+                         <img src="https://image.flaticon.com/icons/png/512/30/30473.png"></img>
+                         <span class="image-hover-wrapper-reveal">
+                            <p>Human<br><i class="fa fa-link" aria-hidden="true"></i></p>
+                          </span>
+                        </a>
+                  </div>
+                  <div class="small-6 medium-3 column image-hover-wrapper">  
+                        <a href="#">
+                          <img src="http://www.clipartqueen.com/image-files/mouse-clipart-silhouette.png"></img>
+                          <span class="image-hover-wrapper-reveal">
+                            <p>Mouse<br><i class="fa fa-link" aria-hidden="true"></i></p>
+                          </span>
+                        </a>
+                  </div>
+                  <div class="small-6 medium-3 column image-hover-wrapper">  
+                        <a href="#">
+                          <img src="img/Arabidopsis.png"></img>
+                          <span class="image-hover-wrapper-reveal">
+                            <p>Arabidopsis<br><i class="fa fa-link" aria-hidden="true"></i></p>
+                          </span>
+                        </a>
+                  </div>
+                  <div class="small-6 medium-3 column image-hover-wrapper">  
+                        <a href="#">
+                          <img src="img/bacterium.png"></img>
+                          <span class="image-hover-wrapper-reveal">
+                            <p><i>E. coli</i><br><i class="fa fa-link" aria-hidden="true"></i></p>
+                          </span>
+                        </a>
+                  </div>
+                </div>
+              </div>
+              <div class="small-12 medium-6 column">
+                <h1>DNA Damaging Agents</h1>
+                <hr>
+                <ul class="disc">
+                  <li><a href="#">Ultraviolet</a></li>
+                  <ul>
+                    <li><a href="#">Cyclobutane pyrimidine dimer (CPD)</a></li>
+                    <li><a href="#">(6-4)Photoproduct</a></li>
+                  </ul>
+                  <li><a href="#">Cisplatin</a></li>
+                  <li><a href="#">Oxiloplatin</a></li>
+                  <li><a href="#">Benzo[a]pyrene</a></li>
+                  <li><a href="#">Aflotoxin</a></li>
+                 </ul>
               </div>
             </div>
+            <div class="wrap row">
+                <div class="small-12 medium-6 column">
+                  <h1>Upload Your Data</h1>
+                  <hr>
+                  <p>Our ultimate aim is to collect all data sets relevant to DNA Damage and Repair. If you think you can contribute, let us know! We will be happy to organize your data, make them available and browsable to anyone!</p>
+                  <a href="#" class="button">Contact Us</a>
+                </div>
+                <div class="small-12 medium-6 column">
+                  <h1>Search Here</h1>
+                  <hr>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
           </section>
 
           <!-- FOOTER -->
@@ -85,16 +169,15 @@
               <div class="column">
                 <h4>Contact Info</h4>
                 <hr>
-                <a href="#"><span>Phone</span> 234 234 2340</a>
-                <a href="#"><span>Email</span> info@company.com</a>
-                <a href="#"><span>Address</span> 123 Center Street</a>
+                <a href="mailto:adebali@unc.edu"><span>Email</span> adebali@unc.edu</a>
               </div>
               <div class="column">
                 <h4>Site Map</h4>
                 <hr>
-                <a href="#">About us</a>
-                <a href="#">Services</a>
-                <a href="#">Contact Us</a>
+                <a href="#">Browse</a>
+                <a href="#">Search</a>
+                <a href="#">Download</a>
+                <a href="#">Help</a>
               </div>
               <div class="column">
                 <h4>Social Media</h4>
