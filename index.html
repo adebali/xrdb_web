@@ -7,6 +7,10 @@
     <title>DNA Damage and Repair Database</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Style -->
+    <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
   </head>
   <body>
     <div class="off-canvas-wrapper">
@@ -17,7 +21,20 @@
         <div class="off-canvas position-left" id="mobile-menu" data-off-canvas>
           <ul>
             <li><a href="#">Home</a></li>
-            <li><a href="#">Browse</a></li>
+            <li>
+              <!-- <a href="#">Browse</a> -->
+              <div class="dropdown">
+                <button class="dropbtn">Browse
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="#">Human</a>
+                  <a href="#">Mouse</a>
+                  <a href="#">Arabidopsis</a>
+                  <a href="#">Plant</a>
+                </div>
+              </div> 
+            </li>
             <li><a href="#">Search</a></li>
             <li><a href="#">Download</a></li>
             <li><a href="#">Help</a></li>
@@ -52,13 +69,45 @@
                <!-- <img src="img/xr_log_white.png"></img> -->
               </div>
               <div class="top-bar-right">
+                <!-- <div class="topnav" id="myTopnav">
+                    <a href="#home" class="active">Home</a>
+                    <div class="dropdown">
+                      <button class="dropbtn">Browse
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">Human</a>
+                        <a href="#">Mouse</a>
+                        <a href="#">Arabidopsis</a>
+                        <a href="#">Plant</a>
+                      </div>
+                    </div> 
+                    <a href="#search">Search</a>
+                    <a href="#download">Download</a>
+                    <a href="#help">Help</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+                  </div>
+                </div> -->
                 <ul class="menu menu-desktop">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Browse</a></li>
-                  <li><a href="#">Search</a></li>
-                  <li><a href="#">Download</a></li>
-                  <li><a href="#">Help</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">HOME</a></li>
+                  <li>
+                    <!-- <a href="#">Browse</a> -->
+                    <div class="dropdown">
+                      <button class="dropbtn">BROWSE
+                        <i class="fa fa-caret-down"></i>
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">HUMAN</a>
+                        <a href="#">MOUSE</a>
+                        <a href="#">ARABIDOPSIS</a>
+                        <a href="#">PLANT</a>
+                      </div>
+                    </div> 
+                  </li>
+                  <li><a href="#">SEARCH</a></li>
+                  <li><a href="#">DOWNLOAD</a></li>
+                  <li><a href="#">HELP</a></li>
+                  <!-- <li><a href="#">Contact</a></li> -->
                 </ul>
               </div>
             </div>
