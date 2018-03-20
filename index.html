@@ -60,9 +60,11 @@
           </div>
 
           <button class="accordion" id="search">SEARCH</button>
-          <div class="panel">
-            <p>Lorem ipsum...</p>
-          </div>
+          <script type="text/javascript">
+            document.getElementById("search").onclick = function () {
+                location.href = "search.html";
+            };
+          </script>
 
           <button class="accordion" id="download">DOWNLOAD</button>
             <script type="text/javascript">
@@ -128,7 +130,7 @@
                   </div>
                 </div> -->
                 <ul class="menu menu-desktop">
-                  <li><a href="#">HOME</a></li>
+                  <li><a href="index.html">HOME</a></li>
                   <li>
                     <!-- <a href="#">Browse</a> -->
                     <div class="dropdown">
@@ -143,8 +145,8 @@
                       </div>
                     </div> 
                   </li>
-                  <li><a href="#">SEARCH</a></li>
-                  <li><a href="#">DOWNLOAD</a></li>
+                  <li><a href="search.html">SEARCH</a></li>
+                  <li><a href="download.html">DOWNLOAD</a></li>
                   <li><a href="#">HELP</a></li>
                   <!-- <li><a href="#">Contact</a></li> -->
                 </ul>
@@ -241,7 +243,7 @@
                   <h1>Upload Your Data</h1>
                   <hr>
                   <p>Our ultimate aim is to collect all data sets relevant to DNA Damage and Repair. If you think you can contribute, let us know! We will be happy to organize your data, make them available and browsable to anyone!</p>
-                  <a href="#" class="button">Contact Us</a>
+                  <a href="download.html" class="button">Contact Us</a>
                 </div>
                 <div class="small-12 medium-6 column">
                   <h1>Search Here</h1>
@@ -264,8 +266,8 @@
                 <h4>Site Map</h4>
                 <hr>
                 <a href="#">Browse</a>
-                <a href="#">Search</a>
-                <a href="#">Download</a>
+                <a href="search.html">Search</a>
+                <a href="download.html">Download</a>
                 <a href="#">Help</a>
               </div>
               <div class="column">
